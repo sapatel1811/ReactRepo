@@ -1,0 +1,138 @@
+{
+  "categories": [
+    {
+      "id": "XuNE9mMII70",
+      "cate_name": "product 3",
+      "cate_image": "https://www.samava.in/public/frontend/img/banner-img.jpg",
+      "cate_description": "hello"
+    },
+    {
+      "id": "FGor7T2Pqj4",
+      "cate_name": "product 3",
+      "cate_image": "https://www.architectandinteriorsindia.com/cloud/2024/03/01/0lSSTrQN-Image-23-1200x851.jpg",
+      "cate_description": "hello"
+    },
+    {
+      "id": "Vlz2ayDFWP8",
+      "cate_name": "Bunglows dd",
+      "cate_image": "https://www.samava.in/public/frontend/img/banner-img.jpg",
+      "cate_description": "hello"
+    },
+    {
+      "id": "AhY0WGEodcw",
+      "cate_name": "PentHouse",
+      "cate_image": "https://www.samava.in/public/frontend/img/banner-img.jpg",
+      "cate_description": "nice penthouse ...."
+    },
+    {
+      "id": "rpUgzy8BwzU",
+      "cate_name": "product 3",
+      "cate_image": "https://i.pinimg.com/736x/da/89/15/da8915e383f15ed39fe72cbb9eb4816c.jpg",
+      "cate_description": "nice "
+    }
+  ],
+  "reviews": [
+    {
+      "name": "kishori ",
+      "rating": "2",
+      "message": "shgfiydgf",
+      "status": "approved",
+      "id": "ep6mXghJeFk"
+    },
+    {
+      "name": "Prem patel",
+      "rating": "3",
+      "message": "nice ",
+      "status": "approved",
+      "id": "2WfhP5acE-c"
+    },
+    {
+      "name": "Abhishek patel",
+      "rating": "4",
+      "message": "good job ",
+      "status": "pending",
+      "id": "0rMuLlnzbEE"
+    }
+  ],
+  "addcategories": [
+    {
+      "id": "ngiD7Ne6stc",
+      "pro_name": "shoes",
+      "pro_price": "233",
+      "pro_discount": "2",
+      "pro_description": "running shoes",
+      "pro_catogery": "footware",
+      "pro_stock": "1",
+      "pro_ratting": "3",
+      "pro_image": "https://assets.myntassets.com/h_1440,q_75,w_1080/v1/assets/images/30243339/2024/7/20/f759f541-b203-455f-acfa-6c2da8763c6f1721414243987-Shoetopia-Girls-Colourblocked-Sneakers-6711721414243755-7.jpg",
+      "pro_status": "pending",
+      "pro_createat": "2026-05-01"
+    },
+    {
+      "id": "YogeuemsZ8A",
+      "pro_name": "shoes",
+      "pro_price": "600",
+      "pro_discount": "23",
+      "pro_description": "running shoes",
+      "pro_catogery": "footware",
+      "pro_stock": "12",
+      "pro_ratting": "4",
+      "pro_image": "https://i5.walmartimages.com/asr/667453f7-52c5-4246-a0fb-c993dc5d4dc2.ba7d5c852ae2479d0121f7fc6086b8c8.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "pro_status": "pending",
+      "pro_createat": "2026-05-01"
+    },
+    {
+      "id": "6-JuN2ils9A",
+      "pro_name": "T-shirt",
+      "pro_price": "200",
+      "pro_discount": "5",
+      "pro_description": "Simple t-shirt ",
+      "pro_catogery": "cloth",
+      "pro_stock": "1",
+      "pro_ratting": "4",
+      "pro_image": "https://yellowapple.in/cdn/shop/files/GSWT_16_PINK_AI.jpg?v=1760016475",
+      "pro_status": "active",
+      "pro_createat": "2026-05-02"
+    },
+    {
+      "id": "hm5OILOHeZg",
+      "pro_name": "bridal lehnga",
+      "pro_price": "30000",
+      "pro_discount": "10",
+      "pro_description": "bridal lehnga ",
+      "pro_catogery": "cloth",
+      "pro_stock": "3",
+      "pro_ratting": "5",
+      "pro_image": "https://www.tamannapunjabikapoor.com/cdn/shop/files/TP_8472_c4582836-a168-465f-b193-2b2884f09804.jpg?v=1747119019",
+      "pro_status": "pending",
+      "pro_createat": "2026-04-25"
+    },
+    {
+      "id": "4m7Ke1hb6A8",
+      "pro_name": "bridal lehnga",
+      "pro_price": "59000",
+      "pro_discount": "20",
+      "pro_description": "bridal lehnga ",
+      "pro_catogery": "cloth",
+      "pro_stock": "5",
+      "pro_ratting": "4",
+      "pro_image": "https://www.tamannapunjabikapoor.com/cdn/shop/files/TP_8472_c4582836-a168-465f-b193-2b2884f09804.jpg?v=1747119019",
+      "pro_status": "pending",
+      "pro_createat": "2026-04-11"
+    },
+    {
+      "id": "A6eemi1cikY",
+      "pro_name": "T-shirt",
+      "pro_price": "449",
+      "pro_discount": "10",
+      "pro_description": "Simple t-shirt ",
+      "pro_catogery": "cloth",
+      "pro_stock": "12",
+      "pro_ratting": "2",
+      "pro_image": "https://assets.myntassets.com/h_1440,q_75,w_1080/v1/assets/images/30243339/2024/7/20/f759f541-b203-455f-acfa-6c2da8763c6f1721414243987-Shoetopia-Girls-Colourblocked-Sneakers-6711721414243755-7.jpg",
+      "pro_status": "active",
+      "pro_createat": "2026-05-10"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
