@@ -23,7 +23,7 @@ function EditCategory() {
   });
 
   // const getSingleData = async () => {
-  //   const res = await axios.get(`https://reactrepo-1l35.onrender.com/categories/${id}`);
+  //   const res = await axios.get(`http://localhost:3000/categories/${id}`);
   //   setFormdata(res.data);
   // };
 
@@ -31,7 +31,7 @@ function EditCategory() {
     
     // getSingleData();
       const getSingleData = async () => {
-     const res = await axios.get(`https://reactrepo-1l35.onrender.com/categories/${id}`);
+     const res = await axios.get(`http://localhost:3000/categories/${id}`);
     setFormdata(res.data);
 }
 getSingleData();
