@@ -27,7 +27,7 @@ function ManageCategory() {
 
   // FETCH
   const getData = async () => {
-    const res = await axios.get("http://localhost:3000/addcategories");
+    const res = await axios.get("https://reactrepo-1l35.onrender.com/addcategories");
     setData(res.data);
   };
 
