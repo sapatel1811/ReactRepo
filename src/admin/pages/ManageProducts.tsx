@@ -22,7 +22,7 @@ function ManageProducts() {
   // Fetching data
   const getData = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/categories");
+      const res = await axios.get("https://reactrepo-1l35.onrender.com/categories");
       setProducts(res.data);
     } catch{
       toast.error("Failed to fetch data");
@@ -44,7 +44,7 @@ function ManageProducts() {
     }).then(async (ok) => {
       if (ok) {
         try {
-          await axios.delete(`http://localhost:3000/categories/${id}`);
+          await axios.delete(`https://reactrepo-1l35.onrender.com/categories/${id}`);
           toast.success("Deleted");
           getData();
         } catch  {
@@ -57,7 +57,7 @@ function ManageProducts() {
   // Editing product
   const editProduct = async (id: number) => {
     try {
-      const res = await axios.get(`http://localhost:3000/categories/${id}`);
+      const res = await axios.get(`https://reactrepo-1l35.onrender.com/categories/${id}`);
       setFormdata({
         id: res.data.id,
         cate_name: res.data.cate_name,
