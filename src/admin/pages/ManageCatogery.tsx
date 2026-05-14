@@ -27,7 +27,7 @@ function ManageCategory() {
 
   // FETCH
   const getData = async () => {
-    const res = await axios.get("https://reactrepo-1l35.onrender.com/addcategories");
+    const res = await axios.get("http://localhost:3000/addcategories");
     setData(res.data);
   };
 
@@ -46,7 +46,7 @@ function ManageCategory() {
     });
 
     if (confirm) {
-      await axios.delete(`https://reactrepo-1l35.onrender.com/addcategories/${id}`);
+      await axios.delete(`http://localhost:3000/addcategories/${id}`);
       getData();
     }
   };
