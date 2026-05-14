@@ -46,7 +46,7 @@ function ManageCategory() {
     });
 
     if (confirm) {
-      await axios.delete(`http://localhost:3000/addcategories/${id}`);
+      await axios.delete(`https://reactrepo-1l35.onrender.com/addcategories/${id}`);
       getData();
     }
   };
