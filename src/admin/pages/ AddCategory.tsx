@@ -49,7 +49,7 @@ function AddCategory() {
     if (!validation()) return;
 
     try {
-      const res = await axios.post("http://localhost:3000/addcategories", {
+      const res = await axios.post("https://reactrepo-1l35.onrender.com/addcategories", {
         ...formdata,
         id: Date.now().toString(),
       });
