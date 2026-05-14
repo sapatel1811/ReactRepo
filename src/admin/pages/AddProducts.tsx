@@ -46,7 +46,7 @@ function AddProduct() {
     if (validation()) {
         try {
             const res = await axios.post(
-                "http://localhost:3000/categories",
+                "https://reactrepo-1l35.onrender.com/categories",
                 {
                     ...formdata,
                     id: new Date().getTime().toString()
