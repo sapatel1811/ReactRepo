@@ -7,7 +7,7 @@ function ReviewManage() {
   const [reviews, setReviews] = useState <any[]>([]);
 
   const getData = async () => {
-    const res = await axios.get("https://reactrepo-1l35.onrender.com/reviews");
+    const res = await axios.get("http://localhost:3000/reviews");
     setReviews(res.data);
   };
 
@@ -16,13 +16,13 @@ function ReviewManage() {
   }, []);
 
   const deleteReview = async (id: string) => {
-    await axios.delete(`https://reactrepo-1l35.onrender.com/reviews/${id}`);
+    await axios.delete(`http://localhost:3000/reviews/${id}`);
     toast.success("Deleted");
     getData();
   };
 
   const approveReview = async (id: string) => {
-    await axios.patch(`https://reactrepo-1l35.onrender.com/reviews/${id}`, {
+    await axios.patch(`http://localhost:3000/reviews/${id}`, {
       status: "approved"
     });
     toast.success("Approved");
